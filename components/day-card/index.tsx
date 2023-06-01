@@ -52,7 +52,10 @@ export default function DayCard({ day }: any) {
   }
 
   return (
-    <Card className="day-card">
+    <Card
+      sx={{ backgroundColor: "#1e213a", color: "#E7E7EB" }}
+      className="day-card"
+    >
       <Typography className={`${raleway500.className} day-date`}>
         {tomorrow ? "Tomorrow" : convert.view}
       </Typography>

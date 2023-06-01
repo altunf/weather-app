@@ -75,7 +75,10 @@ export const HighlightCard = ({ title }: any) => {
   );
 
   return (
-    <Card className="highlight-card">
+    <Card
+      sx={{ backgroundColor: "#1e213a", color: "#E7E7EB" }}
+      className="highlight-card"
+    >
       <Typography className={`title`}>{title}</Typography>
       {title === "Wind status" && wind}
       {title === "Humidity" && humidity}
