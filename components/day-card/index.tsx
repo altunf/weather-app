@@ -63,7 +63,9 @@ export default function DayCard({ day }: any) {
         alt={day.weather[0].description}
       />
       <Box className={`${raleway500.className} min-max-temp`}>
-        <span>{tempConverter(day.main.temp_max)}</span>
+        <span style={{ color: "#E7E7EB" }}>
+          {tempConverter(day.main.temp_max)}
+        </span>
         <span style={{ color: "#A09FB1" }}>
           {tempConverter(day.main.temp_min)}
         </span>
