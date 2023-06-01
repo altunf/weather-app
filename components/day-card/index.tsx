@@ -56,7 +56,10 @@ export default function DayCard({ day }: any) {
       sx={{ backgroundColor: "#1e213a", color: "#E7E7EB" }}
       className="day-card"
     >
-      <Typography className={`${raleway500.className} day-date`}>
+      <Typography
+        sx={{ color: "#E7E7EB" }}
+        className={`${raleway500.className} day-date`}
+      >
         {tomorrow ? "Tomorrow" : convert.view}
       </Typography>
       <Image
