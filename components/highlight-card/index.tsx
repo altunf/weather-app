@@ -46,6 +46,7 @@ export const HighlightCard = ({ title }: any) => {
       </div>
       <div>
         <LinearProgress
+          sx={{ color: "#ffec65" }}
           determinate
           value={fiveDays[0]?.main?.humidity}
           className="progress"
