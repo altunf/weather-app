@@ -1,0 +1,46 @@
+.search-drawer {
+  background-color: #1e213a;
+  height: 100vh;
+  width: 686px;
+  color: white;
+}
+
+.place-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  box-sizing: border-box;
+  background-color: #1e213a;
+  width: 367px;
+  height: 64px;
+  margin-left: 46px;
+  margin-top: 80px;
+  color: #e7e7eb;
+  border: none;
+}
+
+.place-button:hover {
+  border: 1px solid #616475;
+}
+
+.close-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 22px;
+  height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .search-drawer {
+    width: 375px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .place-button {
+    width: 296px;
+  }
+}

@@ -1,0 +1,25 @@
+.day-card {
+  margin: 21px;
+  width: 160px;
+  height: 177px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e213a;
+  color: #ffff;
+  box-shadow: none;
+}
+
+.min-max-temp {
+  font-size: 16px;
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.day-date {
+  font-size: 16px;
+  text-align: center;
+  color: #e7e7eb;
+}

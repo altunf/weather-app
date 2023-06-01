@@ -1,0 +1,29 @@
+.search-input {
+  background-color: #1e213a;
+  box-sizing: border-box;
+  width: 300px;
+  height: 48px;
+
+  color: #e7e7eb;
+  border: 1px solid #e7e7eb;
+}
+
+.search-button {
+  cursor: pointer;
+  width: 86px;
+  height: 48px;
+  margin-left: 27px;
+
+  color: #e7e7eb;
+  border: none;
+  background: #3c47e9;
+}
+
+@media screen and (max-width: 600px) {
+  .search-input {
+    width: 200px;
+  }
+  .search-button {
+    width: 68px;
+  }
+}

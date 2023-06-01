@@ -1,0 +1,104 @@
+.sidebar {
+  background-color: #1e213a;
+  height: 100vh;
+  width: 600px;
+  color: #ffffff;
+}
+
+.sidebar-button-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gps-icon {
+  margin-top: 42px;
+  margin-right: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #e7e7eb;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-button {
+  cursor: pointer;
+  width: 161px;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 46px;
+  margin-top: 42px;
+  color: #e7e7eb;
+  border: none;
+  background: #6e707a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cloud-bg {
+  margin-top: 60px;
+  opacity: 0.1;
+}
+.weather {
+  position: absolute;
+  left: 130px;
+  top: 130px;
+}
+
+.today-info {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.today-temp {
+  font-size: 144px;
+}
+.today-weather {
+  margin-top: 20px;
+  font-size: 36px;
+  text-align: center;
+  color: #a09fb1;
+}
+
+.today-date {
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+  color: #88869d;
+  display: flex;
+  gap: 10px;
+}
+
+.city {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #88869d;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    height: 140vh;
+    width: 375px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .cloud-bg {
+    margin-top: 70px;
+    opacity: 0.1;
+    width: 375px;
+  }
+
+  .weather {
+    margin-top: 70px;
+    width: 100px;
+  }
+}

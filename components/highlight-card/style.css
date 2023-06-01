@@ -1,0 +1,74 @@
+.highlight-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: none;
+  width: 400px;
+  max-height: 204px;
+  color: #ffffff;
+  background-color: #1e213a;
+}
+
+.range {
+  font-size: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  color: #a09fb1;
+}
+.percent {
+  font-size: 12px;
+  width: 251px;
+  display: flex;
+  justify-content: end;
+  color: #a09fb1;
+}
+
+.progress {
+  width: 251px;
+  height: 8px;
+  display: flex;
+
+  justify-content: center;
+  color: #ffec65;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.wsw {
+  font-size: 14px;
+  color: #e7e7eb;
+}
+
+.title {
+  font-size: 16px;
+  text-align: center;
+  color: #e7e7eb;
+}
+
+.measure-value {
+  font-size: 64px;
+  color: #e7e7eb;
+}
+.measure-type {
+  font-size: 36px;
+  color: #e7e7eb;
+}
+
+@media screen and (max-width: 600px) {
+  .highlight-card {
+    width: 328px;
+    height: 204px;
+  }
+}

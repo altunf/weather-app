@@ -1,0 +1,41 @@
+.temperature {
+  margin-left: 870px;
+}
+
+.temp-buttons {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: none;
+  border: none;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.celcius-active {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #585676;
+  box-shadow: none;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.fahrenheit-active {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #585676;
+  box-shadow: none;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .temperature {
+    margin: auto;
+  }
+}
