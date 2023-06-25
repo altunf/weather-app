@@ -102,3 +102,21 @@
     width: 100px;
   }
 }
+
+@media screen and (max-width: 1350px) {
+  .sidebar {
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .cloud-bg {
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .weather {
+    margin-bottom: 10px;
+    width: auto;
+  }
+}

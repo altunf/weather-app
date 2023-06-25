@@ -62,7 +62,7 @@
   color: #e7e7eb;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1350px) {
   .highlight-card {
     width: 328px;
     height: 204px;

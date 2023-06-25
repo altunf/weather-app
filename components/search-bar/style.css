@@ -19,7 +19,7 @@
   background: #3c47e9;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1350px) {
   .search-input {
     width: 200px;
   }
