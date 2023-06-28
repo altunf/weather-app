@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Weather App</h1>
 
-## Getting Started
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-First, run the development server:
+<div align="center">
+  <h3>
+    <a href="https://weather-app-firat-altun.vercel.app/" target="_blank">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv" target="_blank">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![weather](https://github.com/altunf/weather-app/assets/116505991/6ee898e0-64e8-4223-a3ad-75d7e560ee7a)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+I have accomplished this <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv" target="_blank">challenge</a> of developing a weather app using an API.
 
-To learn more about Next.js, take a look at the following resources:
+### Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next JS
+- React JS
+- TypeScript
+- Material UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+I fulfilled user stories below:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- User story: I can see city weather as default, preferably my current location
+- User story: I can search for city
+- User story: I can see weather of today and the next 5 days
+- User story: I can see the date and location of the weather
+- User story: I can see according to image for each type of weather
+- User story: I can see the min and max degree each day
+- User story: I can see wind status and wind direction
+- User story: I can see humidity percentage
+- User story: I can see a visibility indicator
+- User story: I can see the air pressure number
+- User story: I can request my current location weather
+- User story: I can convert temperature in Celcius to Fahrenheit and vice versa
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## My Portfolio
+
+- devChallenges.io [portfolio](https://devchallenges.io/portfolio/altunf)
+
